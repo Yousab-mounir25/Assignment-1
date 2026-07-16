@@ -1,0 +1,58 @@
+// (1)
+
+--forEach()
+    It is an Array method.
+    It executes a callback function for every element.
+    It cannot use break or continue.
+    It does not work well with async/await.
+
+--for...of
+    It is a JavaScript loop.
+    It works with any iterable (Arrays, Strings, Maps, Sets, etc.).
+    It supports break, continue, and return.
+    It works perfectly with async/await.
+
+    =======================================================================
+
+    (2)
+    
+    --Hoisting: 
+        Hoisting is JavaScript's behavior of moving declarations to the top of their scope before execution.
+
+    --TDZ(temporal dead zone):
+        The TDZ is the period between:
+            entering the scope
+            and the variable declaration
+            During this time, the variable exists but cannot be accessed.
+
+===============================================================================
+
+(3)
+
+Equal(==): Compares values only . 
+Equality(===) : compares value and type
+
+===============================================================================
+(4)
+
+try...catch:
+    uses to handel errors that may happen in the code , but without crashing the program 
+    so instead of stopping the program, the error is caught 
+
+why it is important in asynchronous operations?? 
+    When asynchronous operations fail, they throw an error 
+    so it will handle inside the catch block without carshing the program
+
+===============================================================================
+
+(5) 
+
+type conversion: 
+    is explicitly happens 
+    The programmer intentionally changes a value's type
+
+type coercion:
+    is implicitly happens
+    JavaScript automatically converts the type.
+
+
