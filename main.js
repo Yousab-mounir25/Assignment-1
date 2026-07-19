@@ -44,25 +44,25 @@ console.log(res1);
 let numOfWeek =3 ;
 switch(numOfWeek){
     case 1:
-        return console.log("Sunday");
+         console.log("Sunday");
         break;
     case 2 :
-        return console.log("Monday");
+         console.log("Monday");
         break;
     case 3 :
-        return console.log("Tuesday");
+         console.log("Tuesday");
         break;
     case 4 :
-        return console.log("Wednesday");
+         console.log("Wednesday");
         break;
     case 5:
-        return console.log("Thurday");
+         console.log("Thurday");
         break;
     case 6:
-        return console.log("Friday");
+         console.log("Friday");
         break;
     case 7 :
-        return console.log("Saturday");
+         console.log("Saturday");
         break;
     default :
         console.log("invalid input")
@@ -128,8 +128,8 @@ console.log("the summation is " + sum(1,2,3,4,5,6,7,8,9));
 function succ (){
     return new Promise (function(reslove , reject){
         setTimeout(()=>{
-            console.log("Success");
-            reslove();
+            
+            reslove("success");
         },3000)
     })
 }
